@@ -1,10 +1,11 @@
 package Base;
 
-import java.util.Scanner;
+import Cars.BMW;
+import Cars.Car;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int num = Integer.parseInt(scanner.nextLine());
+        Car.Module module = new Car.Module();
+        Car car = new BMW();
     }
 }

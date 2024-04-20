@@ -5,6 +5,7 @@ public abstract class Car {
     Engine engine;
     String mark;
     String model;
+    public static String number;
 
     public void drive(){
         if(driver != null){
@@ -31,4 +32,12 @@ public abstract class Car {
     public Driver getDriver(){
         return driver;
     }
+
+    public static class Module{
+
+    }
+}
+
+class fdsf{
+
 }
